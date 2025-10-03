@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Gen Studio",
+  "description": "A modern web application to generate and edit images using Google's Imagen and Nanobanana AI models. It features a gallery to view, search, and manage your creations.",
+  "requestFramePermissions": []
+}

@@ -7,7 +7,7 @@ import { GoogleGenAI, Modality, GenerateContentResponse } from "@google/genai";
 // For personal projects this is acceptable, but it is not secure for production applications.
 const API_KEY = "AIzaSyDdb33z_nz6Ww5q9Fy4YYG-OlLqKz898Us"; 
 
-if (!API_KEY || API_KEY === "AIzaSyDdb33z_nz6Ww5q9Fy4YYG-OlLqKz898Us") {
+if (!API_KEY || API_KEY === "YOUR_API_KEY_HERE") {
     const errorDiv = document.createElement('div');
     errorDiv.style.cssText = 'position:fixed;top:0;left:0;width:100%;padding:1rem;background-color:#ef4444;color:white;text-align:center;font-family:sans-serif;z-index:9999;';
     errorDiv.textContent = 'API Key is not configured. Please add your key to services/geminiService.ts';
